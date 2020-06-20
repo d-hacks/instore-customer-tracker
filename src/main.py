@@ -33,7 +33,7 @@ def main(cfg):
 
     count = 1
     while(cap.isOpened()):
-            print('')
+        print('')
         ret, frame = cap.read()
         if not ret:
             break
