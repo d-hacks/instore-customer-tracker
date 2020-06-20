@@ -9,11 +9,11 @@ import torch.backends.cudnn as cudnn
 import torchvision.transforms as transforms
 import torchvision
 
-from .lib.config import cfg
-from .lib.config import update_config
-from .lib.models.pose_hrnet import get_pose_net
-from .lib.utils.transforms import get_affine_transform, transform_preds
-from .lib.utils.classes import COCO_KEYPOINT_INDEXES, COCO_INSTANCE_CATEGORY_NAMES
+from .modules.config import cfg
+from .modules.config import update_config
+from .modules.models.pose_hrnet import get_pose_net
+from .modules.utils.transforms import get_affine_transform, transform_preds
+from .modules.utils.classes import COCO_KEYPOINT_INDEXES, COCO_INSTANCE_CATEGORY_NAMES
 
 
 class PoseNet(object):
