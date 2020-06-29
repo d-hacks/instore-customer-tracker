@@ -1,6 +1,6 @@
 # io
 input: ./data/input/100people.mp4
-output_path: ./data/output/out_100people.mp4
+output_path: ./data/output/out_100people.avi
 
 gpu_id: 1
 
